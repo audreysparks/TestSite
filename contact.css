@@ -137,3 +137,6 @@ input[type=text], select {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  body{
+    border-style: solid;
+}

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{
-    background-color: rgb(119, 119, 119);
+    background-color:rgb(119, 119, 119);
     height: 100%;
 }
 body > header{
@@ -106,4 +106,7 @@ p{
 }
 footer{
     display: block;
+}
+body{
+    background-color:rgb(119, 119, 119);
 }
