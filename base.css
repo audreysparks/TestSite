@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+
+
+/* New Styles Added Below */
+/* 
+==================================================
+Mobile Styles: 0px to 400px
+==================================================
+ */
+ @media only screen and (max-width: 480px){
+body > header > nav > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+body > header > p{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 35px; 
+    font-weight: 100;
+}
+body > header > nav > ul{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer{
+    font-size: 10pt;
+    text-align: center;
+    padding: 40px;
+  }
+  .fa {
+    padding: 5px;
+    font-size: 50px;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+ }
+/* 
+==================================================
+Tablet Styles: 481px to 768px
+==================================================
+ */
+ @media only screen and (min-width: 481px){
+    body > header > nav > img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 30%;
+    }
+    body > header > p{
+        font-family: 'Satisfy', cursive;
+        text-align: center;
+        font-size: 35px; 
+        font-weight: 100;
+    }
+ }
+ /* 
+==================================================
+Desktop Styles: 769px and greater
+==================================================
+ */
+ @media only screen and (min-width: 769px){
+    @charset "utf-8";
+
+html{
+    background-color:rgb(119, 119, 119);
+    height: 100%;
+}
+body > header{
+    background-image: white; 
+}
+
+body > header > p{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 100px; 
+    font-weight: 100;
+}
+header{
+    background-color: white;
+    width:100%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+body > header > nav > ul {
+	display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+	background-color: white;
+	height: 30px;
+}
+
+body > header > nav > ul > li {
+	display: block;
+    width: 20%;
+    float: left;
+	font-size: 0.8em;
+	color: white; 
+	height: 100%;
+	text-align: center;
+    vertical-align:middle;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body > header > nav > ul > li > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: black;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+
+}
+body > header > nav > ul > li > a:visited {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body > header > nav > ul > li > a:hover {
+	color: black;
+    background-color: #f4cccc;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body > header > nav > ul > li > a:active {
+	color: whitesmoke; 
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 2px 2px 5px rgb(236, 215, 161);
+}
+ 
+p{
+    font-family: 'Dosis', sans-serif;
+}
+footer {
+    clear: left;
+    text-align: center;
+    vertical-align: middle;
+    background-color: dimgrey;
+}
+body{
+    background-color:rgb(119, 119, 119);
+}
+header {
+    border-style: solid;
+}
+body > header > nav > img{
+    position: relative;
+    right: 600px;
+    height: 100px;
+    width: 100px;
+}
+}
+
+
+

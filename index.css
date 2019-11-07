@@ -8,11 +8,11 @@ body > header{
     background-image: white; 
 }
 
-h1{
+body > header > p{
     font-family: 'Satisfy', cursive;
     text-align: center;
     font-size: 100px; 
-    font-weight: lighter;
+    font-weight: 100;
 }
 header{
     background-color: white;
@@ -54,7 +54,7 @@ body > header > nav > ul {
 	display: block;
     width: 100%;
     height: 100%;
-    padding: 5%;
+    padding: 0%;
 	background-color: white;
 	height: 30px;
 }
@@ -69,8 +69,8 @@ body > header > nav > ul > li {
 	text-align: center;
     vertical-align:middle;
     font-family: 'Quicksand', sans-serif;
-
 }
+
 
 body > header > nav > ul > li > a {
 	display: block;
@@ -104,9 +104,15 @@ body > header > nav > ul > li > a:active {
 p{
     font-family: 'Dosis', sans-serif;
 }
-footer{
-    display: block;
+footer {
+    clear: left;
+    text-align: center;
+    vertical-align: middle;
+    background-color: dimgrey;
 }
 body{
     background-color:rgb(119, 119, 119);
+}
+header {
+    border-style: solid;
 }
